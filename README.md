@@ -12,3 +12,7 @@ Este é um player de música MP3 simples criado com HTML, CSS e JavaScript que a
 - Barra de progresso interativa que mostra o progresso da música e permite interagir para avançar ou retroceder na faixa.
 - Exibição do tempo atual da música e da duração total.
 - Design responsivo para uso em dispositivos móveis e desktop.
+
+## Link Hospedado
+
+Você pode acessar o Quiz Interativo hospedado no GitHub Pages [aqui](https://eusoujao.github.io/player_de_musica/).
