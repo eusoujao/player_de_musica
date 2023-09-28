@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Player MP3</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <div class="playlist-title">
+        <h1>Top 10 músicas do Brasil</h1>
+    </div>
+    
+    <div class="player">
+
+        <div class="logo">
+            <i class="fa-solid fa-music" style="color: #000000;"></i>
+        </div>
+
+        <span id="musicName"></span>
+
+        <audio id="player" src=""></audio>
+
+        <div class="controls">
+            <button id="prevButton">
+                <i class='bx bx-skip-previous'></i>
+            </button>
+            <button id="playPauseButton">
+                <i class='bx bx-caret-right'></i>
+            </button>
+            <button id="nextButton">
+                <i class='bx bx-skip-next'></i>
+            </button>
+        </div>
+
+        <div class="footer">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <div class="time">
+                <span id="currentTime">0:00</span>
+                <span id="duration">0:00</span>
+            </div>
+        </div>
+        
+    </div>
+</body>
+<script type="text/javascript" src="./js/main.js"></script>
+</html>
